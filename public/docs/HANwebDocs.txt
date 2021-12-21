@@ -1,0 +1,40 @@
+﻿Proposed Website Documents for Humanists Association of Nigeria 
+
+
+Pages: [Home, Join, About Us, What is Humanism?, Support Us]
+
+
+[ A ] HOME page
+
+
+Content
+1 Header, footer(this will appear on all pages as well),
+2 News Bites,
+3 Social media snapshots,
+4 Links to affiliate groups,
+5 Map of local groups,
+
+
+[ B ]  Join Us page
+Content
+1 Benefits of joining us.
+2 Form
+
+
+[ C ] About Us page
+Content
+1 History of Humanist Movement in Nigeria,
+2 Information about HAN,
+3 List of Registered Local(State or City-based) Humanist Organisations.
+
+
+[ D ]  What is Humanism? page
+Content
+This page will be an educational page on no-faith traditions.
+
+
+[ E ] Support Us page
+Content
+1 Form to collect data and email of corporate and individuals interested in supporting us.
+2 Support button: fintech plugin to make one-off or monthly payments to the account of HAN.
+3 Crypto button:  plugin to make crypto payments.
