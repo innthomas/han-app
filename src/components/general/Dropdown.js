@@ -11,6 +11,7 @@ function Dropdown({isOpen, toggle, children}) {
                 
                 <Link className="p-4" to='/news'>News</Link>
                 <Link className="p-4" to='/affiliates'>Affiliates</Link>
+                <Link className="p-4" to='/join'>Join</Link>
                 
             </div>
     )

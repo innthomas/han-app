@@ -6,6 +6,7 @@ import {Route,Routes} from 'react-router-dom';
 import Home from './components/pages/';
 import About from './components/pages/About';
 import Donate from './components/pages/Donate';
+import Join from './components/pages/Join';
 
 import Affiliates from './components/pages/Affiliates';
 import News from './components/pages/News';
@@ -38,7 +39,7 @@ function App() {
         <Route path="/contact" element={<ContactUs/>}/>
         
         <Route path="/affiliates" element={<Affiliates/>}/>
-        
+        <Route path="/join" element={<Join/>}/>
         <Route path="/donate" element={<Donate/>}/>
      </Routes>
      <Footer/>

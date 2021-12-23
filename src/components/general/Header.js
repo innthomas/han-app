@@ -15,7 +15,7 @@ function Header({isOpen, toggle, children}) {
         <div className="">
             <nav className="m-4 flex justify-between items-center h-16 bg-white text-black relative shadow-sm font-mono role='navigation' ">
                 <div className="">
-                <img src={ukLogo} alt="uk logo" className='cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' /></div>
+                <Link to='/'><img src={ukLogo} alt="uk logo" className='cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' /></Link></div>
                 <div className="flex items-center">
                 <Link className="p-4" to='/donate'><button className="visible md:invisible rounded-md px-2 py-1 bg-green-500 transition duration-300 ease-in-out flex items-center animate-bounce hover:bg-green-300 text-white"
                 >Donate</button></Link>

@@ -4,7 +4,16 @@ import NewSlider from '../general/NewSlider';
 function About() {
     return (
         <>
+        <div className="">
         <NewSlider />
+        </div>
+        <h1>Hello World</h1>
+        <h1>Hello World</h1>
+        <h1>Hello World</h1>
+        <h1>Hello World</h1>
+        <h1>Hello World</h1>
+       
+        
      
 
         </>
