@@ -40,12 +40,22 @@ function Header({isOpen, toggle, children}) {
                 <Link className="p-4" to='/'><button className='py-2 px-4 text-white rounded-md bg-green-500 animate-bounce hover:bg-green-300'>Home</button></Link>
                 <Link className="p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" to='/about'>About</Link>
                
-                <Link className="p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" to='/news'>News</Link>
+                <Link className=" p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" to='/news'>News</Link>
                 <Link className="p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" to='/affiliates'>Affiliates</Link>
                 <Link className="p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" to='/contact'>ContactUs</Link>
             
                 <Link className="p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" to='/local'>LocalGroup</Link>
-                <Link className="p-4" to='/join'><button className='py-2 px-4 text-white rounded-md bg-green-500 hover:bg-green-300'>Join</button></Link>
+                <Link className="p-4" to='/join'>
+                    <div className="group">
+                    <button className='py-2 px-4 text-white rounded-md bg-green-500 hover:bg-green-300 '>Join</button>
+                    <ul className="hidden group-hover:block z-40 bg-transparent">
+                        <li className="hover:bg-green-200 mx-0 py-2">item 1</li>
+                        <li className="hover:bg-green-200 mx-0 py-2">item 2</li>
+                        <li className="hover:bg-green-200 mx-0 py-2">item 3</li>
+                        <li className="hover:bg-green-200 mx-0 py-2">item 4</li>
+                    </ul>
+                    </div>
+                    </Link>
                 <Link className="p-4" to='/donate'><button className="rounded-md p-2 bg-yellow-600 transition duration-300 ease-in-out flex items-center animate-bounce hover:bg-green-300 text-white"
                 >Donate</button></Link>
 
