@@ -13,7 +13,7 @@ function Header({isOpen, toggle, children}) {
     return (
         <>
         <div className="">
-            <nav className="m-4 flex justify-between items-center h-16 bg-white text-black relative shadow-sm font-mono role='navigation' ">
+            <nav className="m-4 flex justify-between items-center h-16 bg-grey-800 text-black relative shadow-sm font-mono role='navigation' ">
                 <div className="">
                 <Link to='/'><img src={ukLogo} alt="uk logo" className='cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' /></Link></div>
                 <div className="flex items-center">
@@ -44,7 +44,7 @@ function Header({isOpen, toggle, children}) {
                 <Link className="p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" to='/affiliates'>Affiliates</Link>
                 <Link className="p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" to='/contact'>ContactUs</Link>
             
-
+                <Link className="p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" to='/local'>LocalGroup</Link>
                 <Link className="p-4" to='/join'><button className='py-2 px-4 text-white rounded-md bg-green-500 hover:bg-green-300'>Join</button></Link>
                 <Link className="p-4" to='/donate'><button className="rounded-md p-2 bg-yellow-600 transition duration-300 ease-in-out flex items-center animate-bounce hover:bg-green-300 text-white"
                 >Donate</button></Link>
