@@ -1,8 +1,9 @@
 import React from 'react';
+//import './Header.css';
 //import hanBanner from '../../assets/hanbanner1.png';
 
 import {Link} from 'react-router-dom';
-import ukLogo from '../../assets/uk-logos/huk_logo.png';
+//import ukLogo from '../../assets/uk-logos/huk_logo.png';
 import twitterLogo from '../../assets/uk-logos/huk_twitter.png';
 import youtubeLogo from '../../assets/uk-logos/huk_youtube.png';
 import IGLogo from '../../assets/uk-logos/huk_insta.png';
@@ -16,7 +17,10 @@ function Header({isOpen, toggle, children}) {
         <div className="">
             <nav className="m-4 flex justify-between items-center h-16 bg-grey-800 text-black relative shadow-sm font-mono role='navigation' ">
                 <div className="">
-                <Link to='/'><img src={ukLogo} alt="uk logo" className='w-23 md:w-32 lg:w-48 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' /></Link></div>
+                <Link to='/'>
+                    <h1 className="font-sans md:font-serif hover:font-serif myheadertracking-tight hover:tracking-wide font-semibold text-xl sm:text-2xl md:text-3xl text-green-600" >
+                    Humanists Association of Nigeria</h1>
+                    </Link></div>
                 <div className="flex items-center">
                 <Link className="p-4" to='/donate'><button className="visible md:invisible rounded-md px-2 py-1 bg-green-500 transition duration-300 ease-in-out flex items-center animate-bounce hover:bg-green-300 text-white"
                 >Donate</button></Link>

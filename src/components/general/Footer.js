@@ -12,7 +12,7 @@ function Footer() {
             <div>
   	<form className="m-4 flex ">
     	<input className="rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white" placeholder="your@mail.com"/>
-		<button class="px-4 rounded-r-lg bg-black-400  text-gray-600 font-bold p-4 uppercase border-stone-500 border-t border-b border-r ">Subscribe</button>
+		<button class="px-4 rounded-r-lg bg-black-400  text-gray-600 font-bold p-4 lowercase border-stone-500 border-t border-b border-r ">Subscribe</button>
 	</form>
 </div>
             
