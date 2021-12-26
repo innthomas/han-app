@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeContainer from '../general/HomeContainer';
+//import HomeContainer from '../general/HomeContainer';
 //import ImageSlider from '../general/ImageSlider';
 //import {ImageSliderData} from '../general/ImageSliderData';
 
@@ -57,7 +57,7 @@ function News() {
   </div>
   <div></div>
 </main>
-<HomeContainer/>
+
         </div>
     )
 }

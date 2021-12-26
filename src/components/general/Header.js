@@ -1,5 +1,5 @@
 import React from 'react';
-//import './Header.css';
+import './Header.css';
 //import hanBanner from '../../assets/hanbanner1.png';
 
 import {Link} from 'react-router-dom';
@@ -18,7 +18,7 @@ function Header({isOpen, toggle, children}) {
             <nav className="m-4 flex justify-between items-center h-16 bg-grey-800 text-black relative shadow-sm font-mono role='navigation' ">
                 <div className="">
                 <Link to='/'>
-                    <h1 className="font-sans md:font-serif hover:font-serif myheadertracking-tight hover:tracking-wide font-semibold text-xl sm:text-2xl md:text-3xl text-green-600" >
+                    <h1 className="font-sans md:font-serif hover:font-serif myheadertracking-tight hover:tracking-wide font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-red-600" >
                     Humanists Association of Nigeria</h1>
                     </Link></div>
                 <div className="flex items-center">
