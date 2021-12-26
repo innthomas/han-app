@@ -6,10 +6,7 @@ import NewSlider from '../general/NewSlider';
 import HomeContainer from '../general/HomeContainer';
 //import HomeContent from '../general/HomeContent';
 
-// import { Carousel } from 'react-responsive-carousel';
-// import img1 from '../../assets/images/download.jpeg';
-// import img2 from '../../assets/images/images.jpeg';
-// import img3 from '../../assets/images/images.png';
+
 
 function index() {
     return (
