@@ -15,7 +15,7 @@ function index() {
     return (
         <>
        <Zoom>
-      <NewSlider/>
+      <NewSlider />
       <HomeContainer/>
       {/* <HomeContent/> */}
        </Zoom>

@@ -1,5 +1,6 @@
 import React from 'react';
 //import hanBanner from '../../assets/hanbanner1.png';
+
 import {Link} from 'react-router-dom';
 import ukLogo from '../../assets/uk-logos/huk_logo.png';
 import twitterLogo from '../../assets/uk-logos/huk_twitter.png';
@@ -15,12 +16,13 @@ function Header({isOpen, toggle, children}) {
         <div className="">
             <nav className="m-4 flex justify-between items-center h-16 bg-grey-800 text-black relative shadow-sm font-mono role='navigation' ">
                 <div className="">
-                <Link to='/'><img src={ukLogo} alt="uk logo" className='cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' /></Link></div>
+                <Link to='/'><img src={ukLogo} alt="uk logo" className='w-23 md:w-32 lg:w-48 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' /></Link></div>
                 <div className="flex items-center">
                 <Link className="p-4" to='/donate'><button className="visible md:invisible rounded-md px-2 py-1 bg-green-500 transition duration-300 ease-in-out flex items-center animate-bounce hover:bg-green-300 text-white"
                 >Donate</button></Link>
                     <button className="md:hidden bg-transparent hover:bg-gray-100 text-gray-800 font-semibold hover:text-gray-600 py-2 px-4 border border-gray-400 hover:border-transparent rounded" onClick={toggle}>
-                        <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                        {isOpen ? <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg> : <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>}
+                        
                     </button>
                     <span className="md:block hidden mx-3 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" >Login</span>
                     
@@ -37,7 +39,7 @@ function Header({isOpen, toggle, children}) {
           
            
         
-                <Link className="p-4" to='/'><button className='py-2 px-4 text-white rounded-md bg-green-500 animate-bounce hover:bg-green-300'>Home</button></Link>
+                <Link className="p-4" to='/'><button className='py-2 px-4 text-white rounded-md bg-green-500 animate-bounce hover:bg-green-300 focus:border-4 focus:border-red-400'>Home</button></Link>
                 <Link className="p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" to='/about'>About</Link>
                
                 <Link className=" p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" to='/news'>News</Link>
@@ -46,7 +48,7 @@ function Header({isOpen, toggle, children}) {
             
                 <Link className="p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" to='/local'>LocalGroup</Link>
                 <Link className="p-4" to='/join'>
-                    <div className="group">
+                    <div className="group relative">
                     <button className='py-2 px-4 text-white rounded-md bg-green-500 hover:bg-green-300 '>Join</button>
                     <ul className="hidden group-hover:block z-40 bg-transparent">
                         <li className="hover:bg-green-200 mx-0 py-2">item 1</li>
@@ -56,7 +58,7 @@ function Header({isOpen, toggle, children}) {
                     </ul>
                     </div>
                     </Link>
-                <Link className="p-4" to='/donate'><button className="rounded-md p-2 bg-yellow-600 transition duration-300 ease-in-out flex items-center animate-bounce hover:bg-green-300 text-white"
+                <Link className="p-4" to='/donate'><button className="rounded-md p-2 bg-yellow-600 transition duration-300 ease-in-out flex items-center animate-bounce hover:bg-green-300 text-white active:bg-red-500"
                 >Donate</button></Link>
 
                 

@@ -5,6 +5,10 @@ module.exports = {
   theme: {
     extend: {},
   },
+
+   
+  
+  
   plugins: [
     require('@themesberg/flowbite/plugin')
   ],

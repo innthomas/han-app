@@ -3,7 +3,7 @@ import React from 'react'
 function Donate() {
     return (
     
-        <div className="h-screen flex justify-center items-center bg-orange-300">
+        <div className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500  h-screen flex justify-center items-center ">
         <h1 className="text-9xl uppercase font-black">
             Donate Page
         </h1>

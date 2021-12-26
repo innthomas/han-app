@@ -1,9 +1,12 @@
 import React from 'react';
+import MyContainer from './MyContainer';
+import Featured from './Featured';
 //import im1 from '../../assets/images/download.jpeg';
 
 function HomeContainer() {
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto relative ">
+          <Featured/>
             <main className="py-12 md:px-20 sm:px-14 px-6">
   <div className="sm:flex items-center shadow-md">
     <div className="md:px-10 sm:px-5">
@@ -55,24 +58,8 @@ function HomeContainer() {
   </div>
   <div></div>
 </main>
-<div className="flex gap-2">
-  <div className="container mx-auto bg-teal-400 h-16">
-  long established
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....
-  </div>
-  <div className="container mx-auto bg-teal-400 h-16">
-  long established
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....
-  </div>
-  <div className="container mx-auto bg-teal-400 h-16">
-  long established
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....
-  </div>
-  <div className="container mx-auto bg-teal-400 h-16">
-  long established
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....
-  </div>
-</div>
+
+     <MyContainer/>
         </div>
     )
 }

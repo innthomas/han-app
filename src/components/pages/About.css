@@ -1,0 +1,5 @@
+.submit:active{
+    background-color: #300202;
+    color: rgb(192, 3, 3);
+    border: none;
+}

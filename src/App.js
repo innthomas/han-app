@@ -31,6 +31,7 @@ function App() {
   return (
    
     <>
+    <div className='relative flex-row justify-between'>
      <Header toggle={toggle}/>
      <Dropdown isOpen={isOpen} toggle={toggle}/>
      <Routes>
@@ -45,6 +46,7 @@ function App() {
         <Route path="/local" element={<Local/>}/>
      </Routes>
      <Footer/>
+     </div>
     </>
     
   );
