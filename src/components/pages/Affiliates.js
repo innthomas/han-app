@@ -1,5 +1,5 @@
 import React from 'react';
-import im34 from '../../assets/images/im21.jpeg';
+//import im34 from '../../assets/images/im21.jpeg';
 import wip2 from '../../assets/under-construction/20w.webp'
 
 

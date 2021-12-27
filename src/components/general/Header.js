@@ -1,4 +1,5 @@
 import React from 'react';
+import Donate from '../pages/Donate';
 //import { useAlert } from 'react-alert'
 import './Header.css';
 //import hanBanner from '../../assets/hanbanner1.png';
@@ -9,6 +10,9 @@ import twitterLogo from '../../assets/uk-logos/huk_twitter.png';
 import youtubeLogo from '../../assets/uk-logos/huk_youtube.png';
 import IGLogo from '../../assets/uk-logos/huk_insta.png';
 import fbLogo from '../../assets/uk-logos/huk_fb.png';
+
+//headlessui
+import { Menu } from '@headlessui/react'
 
 
 
@@ -33,6 +37,7 @@ function Header({isOpen, toggle, children}) {
                         
                     </button>
                     <span className="md:block hidden mx-3 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" >Login</span>
+                    <Donate/>
                     
                     <img className="md:block hidden mx-3 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src={youtubeLogo} alt="youtube logo"/>
                     <img className="md:block hidden mx-3 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src={twitterLogo} alt="twitter logo"/>
