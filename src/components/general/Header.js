@@ -1,4 +1,5 @@
 import React from 'react';
+//import { useAlert } from 'react-alert'
 import './Header.css';
 //import hanBanner from '../../assets/hanbanner1.png';
 
@@ -12,6 +13,7 @@ import fbLogo from '../../assets/uk-logos/huk_fb.png';
 
 
 function Header({isOpen, toggle, children}) {
+   // const alert = useAlert();
     return (
         <>
         <div className="">
@@ -22,7 +24,9 @@ function Header({isOpen, toggle, children}) {
                     Humanists Association of Nigeria</h1>
                     </Link></div>
                 <div className="flex items-center">
-                <Link className="p-4" to='/donate'><button className="visible md:invisible rounded-md px-2 py-1 bg-green-500 transition duration-300 ease-in-out flex items-center animate-bounce hover:bg-green-300 text-white"
+                <Link className="p-4" to='/donate'><button className="visible md:invisible rounded-md px-2 py-1 bg-green-500 transition duration-300 ease-in-out flex items-center animate-bounce hover:bg-green-300 text-white" onClick={() => {
+       console.log("donate")
+      }}
                 >Donate</button></Link>
                     <button className="md:hidden bg-transparent hover:bg-gray-100 text-gray-800 font-semibold hover:text-gray-600 py-2 px-4 border border-gray-400 hover:border-transparent rounded" onClick={toggle}>
                         {isOpen ? <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg> : <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>}
@@ -44,16 +48,16 @@ function Header({isOpen, toggle, children}) {
            
         
                 <Link className="p-4" to='/'><button className='py-2 px-4 text-white rounded-md bg-green-500 animate-bounce hover:bg-green-300 focus:border-4 focus:border-red-400'>Home</button></Link>
-                <Link className="p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" to='/about'>About</Link>
+                <Link className="p-2 rounded-lg  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 focus:border-4 focus:border-red-400" to='/about'>About</Link>
                
-                <Link className=" p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" to='/news'>News</Link>
-                <Link className="p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" to='/affiliates'>Affiliates</Link>
-                <Link className="p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" to='/contact'>ContactUs</Link>
-            
-                <Link className="p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" to='/local'>LocalGroup</Link>
+                <Link className=" p-2 rounded-lg  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 focus:border-4 focus:border-red-400" to='/news'>News</Link>
+                <Link className="p-2 rounded-lg  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 focus:border-4 focus:border-red-400" to='/affiliates'>Affiliates</Link>
+                <Link className="p-2 rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 focus:border-4 focus:border-red-400" to='/contact'>ContactUs</Link>
+                <Link className="p-2 rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 focus:border-4 focus:border-red-400" to='/gallery'>Gallery</Link>
+                <Link className="p-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 focus:border-4 focus:border-red-400 rounded-lg" to='/local'>LocalGroup</Link>
                 <Link className="p-4" to='/join'>
                     <div className="group relative">
-                    <button className='py-2 px-4 text-white rounded-md bg-green-500 hover:bg-green-300 '>Join</button>
+                    <button className='focus:border-4 focus:border-red-400 py-2 px-4 text-white rounded-md bg-green-500 hover:bg-green-300 '>Join</button>
                     <ul className="hidden group-hover:block z-40 bg-transparent">
                         <li className="hover:bg-green-200 mx-0 py-2">item 1</li>
                         <li className="hover:bg-green-200 mx-0 py-2">item 2</li>
@@ -62,7 +66,7 @@ function Header({isOpen, toggle, children}) {
                     </ul>
                     </div>
                     </Link>
-                <Link className="p-4" to='/donate'><button className="rounded-md p-2 bg-yellow-600 transition duration-300 ease-in-out flex items-center animate-bounce hover:bg-green-300 text-white active:bg-red-500"
+                <Link className="p-4" to='/donate'><button className="focus:border-4 focus:border-red-400 rounded-md p-2 bg-yellow-600 transition duration-300 ease-in-out flex items-center animate-bounce hover:bg-green-300 text-white active:bg-red-500"
                 >Donate</button></Link>
 
                 

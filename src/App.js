@@ -8,7 +8,7 @@ import About from './components/pages/About';
 import Donate from './components/pages/Donate';
 import Join from './components/pages/Join';
 import Local from './components/pages/Local';
-
+import Gallery from './components/pages/Gallery';
 import Affiliates from './components/pages/Affiliates';
 import News from './components/pages/News';
 
@@ -39,7 +39,7 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/news" element={<News/>}/>
         <Route path="/contact" element={<ContactUs/>}/>
-        
+        <Route path="/gallery" element={<Gallery/>}/>
         <Route path="/affiliates" element={<Affiliates/>}/>
         <Route path="/join" element={<Join/>}/>
         <Route path="/donate" element={<Donate/>}/>
