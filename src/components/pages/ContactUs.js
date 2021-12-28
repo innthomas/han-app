@@ -1,12 +1,12 @@
 import React from 'react';
 import im from '../../assets/Human.png'
 
-//TODO: design the form add hero image
+
 
 function ContactUs() {
     return (
         <div>
-            <div className="h-screen bg-indigo-100 flex justify-evenly items-center ">
+            <div className="h-screen bg-gradient-to-r from-red-400 to-blue-500 flex justify-evenly items-center ">
 				<div>
 					<img alt="" src={im} className="hidden md:block"/>
 				</div>

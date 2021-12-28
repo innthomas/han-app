@@ -1,5 +1,5 @@
 import React from 'react';
-import Donate from '../pages/Donate';
+
 //import { useAlert } from 'react-alert'
 import './Header.css';
 //import hanBanner from '../../assets/hanbanner1.png';
@@ -37,7 +37,7 @@ function Header({isOpen, toggle, children}) {
                         
                     </button>
                     <span className="md:block hidden mx-3 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" >Login</span>
-                    <Donate/>
+                   
                     
                     <img className="md:block hidden mx-3 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src={youtubeLogo} alt="youtube logo"/>
                     <img className="md:block hidden mx-3 cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src={twitterLogo} alt="twitter logo"/>
@@ -56,7 +56,7 @@ function Header({isOpen, toggle, children}) {
                 <Link className="p-2 rounded-lg  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 focus:border-4 focus:border-red-400" to='/about'>About</Link>
                
                 <Link className=" p-2 rounded-lg  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 focus:border-4 focus:border-red-400" to='/news'>News</Link>
-                <Link className="p-2 rounded-lg  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 focus:border-4 focus:border-red-400" to='/affiliates'>Affiliates</Link>
+                <Link className="p-2 rounded-lg  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 focus:border-4 focus:border-red-400" to='/faq'>FAQ</Link>
                 <Link className="p-2 rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 focus:border-4 focus:border-red-400" to='/contact'>ContactUs</Link>
                 <Link className="p-2 rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 focus:border-4 focus:border-red-400" to='/gallery'>Gallery</Link>
                 <Link className="p-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 focus:border-4 focus:border-red-400 rounded-lg" to='/local'>LocalGroup</Link>

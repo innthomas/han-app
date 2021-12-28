@@ -5,7 +5,7 @@ import React from 'react';
 
 function News() {
     return (
-        <div className="container flex flex-col justify-between">
+        <div className="container flex flex-col justify-between bg-gradient-to-r from-red-200 to-blue-200">
             <main class="py-12 md:px-20 sm:px-14 px-6">
   <div class="sm:flex items-center justify-between shadow-md">
     <div class="md:px-10 sm:px-5">

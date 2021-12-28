@@ -7,7 +7,7 @@ function About() {
     return (
       <Zoom>
      
-     <div className="container mx-auto relative  flex flex-column">
+     <div className="container mx-auto relative  flex flex-column bg-gradient-to-r from-red-200 to-blue-200">
        <div>
        <main>
               <div>

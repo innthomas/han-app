@@ -19,7 +19,7 @@ function Join() {
 // const CarouselUI = ({ children }) => <Container>{children}</Container>;
 // const Carousel = makeCarousel(CarouselUI);
     return (
-      <div className="bg-white h-screen flex flex-col items-center">
+      <div className="bg-gradient-to-r from-red-200 to-blue-200 h-screen flex flex-col items-center">
             <h1 className="py-4">coming soon!</h1>
         <img alt="gallery" class="inset-0 w-200 h-200 object-cover object-center" src={wip3}/>
        

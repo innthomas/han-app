@@ -4,7 +4,7 @@ import wip4 from '../../assets/under-construction/200.webp';
 
 function Local() {
     return (
-        <div className="bg-white h-screen flex flex-col items-center">
+        <div className="bg-gradient-to-r from-red-200 to-blue-200 h-screen flex flex-col items-center">
             <h1 className="py-4">coming soon!</h1>
         <img alt="gallery" class="inset-0 w-200 h-200 object-cover object-center" src={wip4}/>
        
