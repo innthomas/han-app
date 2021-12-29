@@ -1,5 +1,4 @@
 {
-  
   "name": "han-app",
   "homepage": "http://innthomas.github.io/",
   "version": "0.1.0",
@@ -15,6 +14,7 @@
     "@testing-library/user-event": "^13.2.1",
     "@themesberg/flowbite": "^1.2.0",
     "gh-pages": "^3.2.3",
+    "netlify-cli": "^8.6.0",
     "npm": "^8.3.0",
     "react": "^17.0.2",
     "react-alert": "^7.0.3",
