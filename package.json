@@ -1,6 +1,7 @@
 {
-  "homepage": "http://innthomas.github.io/han-app",
+  
   "name": "han-app",
+  "homepage": "http://innthomas.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
