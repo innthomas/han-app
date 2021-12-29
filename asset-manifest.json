@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/han-app/static/css/main.0608ea35.css",
-    "main.js": "/han-app/static/js/main.9e4c828c.js",
-    "static/js/787.9ce49f5e.chunk.js": "/han-app/static/js/787.9ce49f5e.chunk.js",
-    "static/media/hero_1.png": "/han-app/static/media/hero_1.ad518081c1ff37788827.png",
-    "static/media/hero_3.png": "/han-app/static/media/hero_3.a96ef367e86020a8745a.png",
-    "static/media/hero_2.png": "/han-app/static/media/hero_2.d78f2f5c669db35d9e52.png",
-    "static/media/200w.webp": "/han-app/static/media/200w.2383141cfabfbc22278b.webp",
-    "static/media/banner_right.png": "/han-app/static/media/banner_right.2cf4885b28d4b168c3cb.png",
-    "static/media/banner_left.png": "/han-app/static/media/banner_left.846fa718b9c56631df92.png",
-    "static/media/hanorg.png": "/han-app/static/media/hanorg.94b590c3de1b94e928d8.png",
-    "static/media/Human.png": "/han-app/static/media/Human.5bbb4ee6163da34df3b4.png",
-    "static/media/giphy.webp": "/han-app/static/media/giphy.6354e35fd5b04ab569e0.webp",
-    "index.html": "/han-app/index.html",
-    "main.0608ea35.css.map": "/han-app/static/css/main.0608ea35.css.map",
-    "main.9e4c828c.js.map": "/han-app/static/js/main.9e4c828c.js.map",
-    "787.9ce49f5e.chunk.js.map": "/han-app/static/js/787.9ce49f5e.chunk.js.map"
+    "main.css": "/static/css/main.0608ea35.css",
+    "main.js": "/static/js/main.432df6d7.js",
+    "static/js/787.9ce49f5e.chunk.js": "/static/js/787.9ce49f5e.chunk.js",
+    "static/media/hero_1.png": "/static/media/hero_1.ad518081c1ff37788827.png",
+    "static/media/hero_3.png": "/static/media/hero_3.a96ef367e86020a8745a.png",
+    "static/media/hero_2.png": "/static/media/hero_2.d78f2f5c669db35d9e52.png",
+    "static/media/200w.webp": "/static/media/200w.2383141cfabfbc22278b.webp",
+    "static/media/banner_right.png": "/static/media/banner_right.2cf4885b28d4b168c3cb.png",
+    "static/media/banner_left.png": "/static/media/banner_left.846fa718b9c56631df92.png",
+    "static/media/hanorg.png": "/static/media/hanorg.94b590c3de1b94e928d8.png",
+    "static/media/Human.png": "/static/media/Human.5bbb4ee6163da34df3b4.png",
+    "static/media/giphy.webp": "/static/media/giphy.6354e35fd5b04ab569e0.webp",
+    "index.html": "/index.html",
+    "main.0608ea35.css.map": "/static/css/main.0608ea35.css.map",
+    "main.432df6d7.js.map": "/static/js/main.432df6d7.js.map",
+    "787.9ce49f5e.chunk.js.map": "/static/js/787.9ce49f5e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0608ea35.css",
-    "static/js/main.9e4c828c.js"
+    "static/js/main.432df6d7.js"
   ]
 }
