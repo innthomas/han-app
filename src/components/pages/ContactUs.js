@@ -6,12 +6,12 @@ import im from '../../assets/Human.png'
 function ContactUs() {
     return (
         <div>
-            <div className="h-screen bg-gradient-to-r from-red-400 to-blue-500 flex justify-evenly items-center ">
+            <div className="h-full bg-gradient-to-r from-red-400 to-blue-500 flex justify-evenly items-center ">
 				<div>
 					<img alt="" src={im} className="hidden md:block"/>
 				</div>
 	<div className="lg:w-2/5 md:w-1/2 w-2/3 ">
-		<form className="bg-white p-10 rounded-lg shadow-lg min-w-full ">
+		<form className="bg-white p-10 rounded-lg shadow-lg min-w-full h-3/6">
 			<h1 className="text-center text-2xl mb-6 text-gray-600 font-bold font-sans">Form</h1>
 			<div>
 				<label className="text-gray-800 font-semibold block my-3 text-md" for="username">Username</label>

@@ -9,7 +9,7 @@ function Dropdown({isOpen, toggle, children}) {
                 <Link className="p-4 hover:bg-teal-50" to='/news'>News</Link>
                 <Link className="p-4 hover:bg-teal-50" to='/donate'>Donate</Link>
                 <Link className="p-4 hover:bg-teal-50" to='/contact'>Contact Us</Link>
-                <Link className="p-4 hover:bg-teal-50" to='/affiliates'>Affiliates</Link>
+                <Link className="p-4 hover:bg-teal-50" to='/faq'>FAQ</Link>
                 <Link className="p-4 hover:bg-teal-50" to='/join'>Join</Link>
                 
             </div>
