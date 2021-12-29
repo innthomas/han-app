@@ -33,7 +33,7 @@ function About() {
 
             </main>
        </div>
-       <div className="hidden md:block container bg-gray-200 m-2 p-4 rounded-lg">
+       <div className="hidden md:block container bg-gray-200 m-2 p-4 rounded-lg z-10 shadow-2xl shadow-gray-600">
          <section>
            <p className="pb-4">you are here: <span className="text-green-500">About Us</span></p>
            <h1 before="================" after="================"  className="text-2xl font-semi-bold before:content-[attr(before)] before:block after:content-[attr(after)] after:block ">More in this section</h1>
